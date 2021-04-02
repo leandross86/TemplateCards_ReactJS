@@ -25,7 +25,7 @@ describe('<Button />', () => {
 
   it('should be disabled when disabled is true', () => {
     const fn = jest.fn();
-    render(<Button text="Load more" disabled={true} onClick={fn}/>);
+    render(<Button text="Load more" disabled={true} onClick={fn} />);
     const button = screen.getByRole('button', { name: /load more/i });
     expect(button).toBeDisabled();
   });
