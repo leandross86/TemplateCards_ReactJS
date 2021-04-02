@@ -34,7 +34,7 @@ Depois disso acesse o diretório e instale as dependências executando o seguint
 
 ## Executando a aplicação
 
-Execute o comando a baixo para inicializar o
+Execute o comando abaixo para inicializar o
 ```sh
   $ yarn start # ou npm start
 ```
@@ -43,7 +43,7 @@ Execute o comando a baixo para inicializar o
 
 ## Executando testes
 
-Execute o comando a baixo para inicializar o
+Execute o comando abaixo para inicializar o testes
 ```sh
   $ yarn test # ou npm test
 ```
@@ -52,7 +52,7 @@ Execute o comando a baixo para inicializar o
 
 ## Coverage
 <img src="./src/assets/coverageTests.png"/>
-Execute o comando a baixo para inicializar os testes
+Execute o comando abaixo para inicializar os testes coverage
 
 ```sh
   $ yarn test -- --coverage # ou npm test -- --coverage
